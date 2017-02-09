@@ -1,0 +1,5 @@
+{
+    "connectionString": "mongodb:rootuser:calendarPw1@ds015636.mlab.com:15636/calendartry",
+    "apiUrl":  "http://localhost:3000/api",
+    "secret": "SECRET"
+}
