@@ -24,6 +24,13 @@
                 controller: 'Account.IndexController',
                 controllerAs: 'vm',
                 data: { activeTab: 'account' }
+            })
+			.state('rating', {
+                url: '/rating',
+                templateUrl: 'rating/index.html',
+                controller: 'Rating.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'rating' }
             });
     }
  
@@ -46,4 +53,10 @@
             angular.bootstrap(document, ['app']);
         });
     });
+	
+	
+	
+	
+	
+
 })();
